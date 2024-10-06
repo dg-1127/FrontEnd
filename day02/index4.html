@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        /*
+                display : block, inline, inline-block, flex, grid
+                [block] : 한줄 모두 차지 (div, p, h1~h6)
+                [inline] : 내 크기만큼만 차지, 줄바꿈 없음, 크기변경 불가 (a, img, span)
+                [inline-block] : 내 크기만큼만 차지, 줄바꿈 없음, 크기변경 가능
+                [flex] : 가로정렬/세로정렬 편하게
+                [grid] : 표 형태로 정렬 편하게
+            */
+        display: flex;
+        height: 100px;
+      }
+
+      .divFlex {
+        display: flex;
+        height: 400px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div style="background: red; width: 50%">1</div>
+      <div style="background: blue; width: 50%">2</div>
+    </div>
+    <div style="background: green">3</div>
+
+    <br />
+    <div style="width: 500px; height: 400px; margin: auto">
+      <div style="width: 500px; border: 2px solid red">
+        <div style="background: skyblue; height: 100px"></div>
+        <div class="divFlex">
+          <div style="background: blue; width: 20%"></div>
+          <div style="background: orange; width: 80%"></div>
+        </div>
+        <div style="background: gray; height: 100px"></div>
+      </div>
+    </div>
+  </body>
+</html>
