@@ -1,0 +1,49 @@
+.greenButton {
+  color: white;
+  background-color: #22c55e;
+  border: 1px solid #22c55e;
+  padding: 12px 35px 12px 35px;
+  border-radius: 4px;
+}
+
+.greenLongButton {
+  color: white;
+  background-color: #22c55e;
+  border: 1px solid #22c55e;
+  padding: 12px 80px 12px 80px;
+  border-radius: 4px;
+}
+
+.buttonOpacity1 {
+  color: white;
+  background-color: #22c55e;
+  border: 1px solid #22c55e;
+  padding: 12px 35px 12px 35px;
+  border-radius: 4px;
+  opacity: 0.5;
+}
+
+.buttonOpacity2 {
+  color: white;
+  background-color: #22c55e;
+  border: 1px solid #22c55e;
+  padding: 12px 80px 12px 80px;
+  border-radius: 4px;
+  opacity: 0.5;
+}
+
+.buttonGreenSmall {
+  color: #22c55e;
+  background-color: white;
+  padding: 10px 12px 10px 12px;
+  border: 1px solid #22c55e;
+  border-radius: 99999px;
+}
+
+.buttonGreenLarge {
+  color: #22c55e;
+  background-color: white;
+  padding: 10px 30px 10px 30px;
+  border: 2px solid #22c55e;
+  border-radius: 99999px;
+}

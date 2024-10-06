@@ -1,0 +1,112 @@
+.kakao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 80px;
+  background-color: #f4e31a;
+  border-radius: 10px;
+  gap: 10px;
+}
+
+.kakaoIcon {
+  font-size: 23px;
+}
+
+.kakaoLogin {
+  font-size: 20px;
+  font-weight: 550;
+}
+
+.facebook {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 80px;
+  background-color: #1671e8;
+  border-radius: 10px;
+  gap: 10px;
+}
+
+.facebookIcon {
+  font-size: 23px;
+  color: white;
+}
+
+.facebookLogin {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.appleBox {
+  width: 400px;
+  height: 80px;
+  background-color: white;
+  border: 1px solid #dbdbdb;
+  border-radius: 10px;
+  gap: 12px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.appleIcon {
+  font-size: 26px;
+}
+
+.appleLogin {
+  text-align: center;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.flex {
+  display: flex;
+  gap: 10px;
+}
+
+.appleIconBox {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.appleIcon2 {
+  color: white;
+  font-size: 24px;
+}
+
+.emailBox {
+  width: 50px;
+  height: 50px;
+  background-color: skyblue;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.emailIcon {
+  color: white;
+  font-size: 20px;
+}
+
+.naverIcon {
+  width: 50px;
+  height: 50px;
+}
+
+.naverIcon > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}

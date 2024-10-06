@@ -1,0 +1,19 @@
+.box {
+  border-radius: 4px;
+  padding-top: 2px;
+}
+
+.green {
+  background-color: #98eccb;
+  border: #98eccb;
+}
+
+.blue {
+  background-color: #9dd7ff;
+  border: #9dd7ff;
+}
+
+.purple {
+  background-color: #c9c5ff;
+  border: #c9c5ff;
+}

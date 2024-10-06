@@ -1,0 +1,65 @@
+.TextBox {
+  width: 100vw;
+  height: 330px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.miniText {
+  color: skyblue;
+}
+
+.largeText {
+  font-size: 20px;
+  text-align: center;
+}
+
+.smallText {
+  color: #bdbdbd;
+  text-align: center;
+}
+
+.boxFlex {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.appleBox {
+  width: fit-content;
+  padding: 20px 24px;
+  border: 1px solid #dbdbdb;
+  border-radius: 10px;
+  gap: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.google-PlayBox {
+  width: fit-content;
+  color: white;
+  background-color: #252b42;
+  padding: 20px;
+  border: 1px solid #dbdbdb;
+  border-radius: 10px;
+  gap: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.iconBox {
+  font-size: 30px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
