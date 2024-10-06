@@ -1,0 +1,28 @@
+.thirtyThousands {
+  color: white;
+  background-color: cornflowerblue;
+  border: 1px solid cornflowerblue;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.twentyThousands {
+  color: white;
+  background-color: cornflowerblue;
+  border: 1px solid cornflowerblue;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.shareButton {
+  color: rgba(0, 0, 0, 0.354);
+  border: 1px solid #dbdbdb;
+  padding: 10px 20px;
+  gap: 10px;
+
+  display: flex;
+}

@@ -1,0 +1,32 @@
+.podong {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: fit-content;
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+
+.container {
+  display: flex;
+  gap: 40px;
+}
+
+.button {
+  width: fit-content;
+  gap: 4px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  font-size: 20px;
+}
+
+.text {
+  font-size: 10px;
+}
