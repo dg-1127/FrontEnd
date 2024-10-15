@@ -1,0 +1,92 @@
+.third {
+  width: 100vw;
+}
+
+.third > .contents {
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 250px 0 165px 0;
+  position: relative;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.category {
+  font-size: 28px;
+  font-weight: 700;
+  color: #3182f6;
+  margin-bottom: 30px;
+  line-height: 1.3;
+}
+
+.title {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.tossBank {
+  width: 600px;
+  height: 936px;
+}
+
+.screen {
+  width: 600px;
+  height: 936px;
+  position: absolute;
+  top: 0px;
+  right: -104px;
+}
+
+.screen > img {
+  position: absolute;
+  top: 37%;
+  left: 30%;
+  width: 57%;
+  border-radius: 22px;
+}
+
+.case > img {
+  position: absolute;
+  top: 14%;
+  left: 54%;
+  width: 63%;
+}
+
+.total {
+  width: 600px;
+  height: 936px;
+  position: absolute;
+  bottom: 0px;
+  left: -104px;
+}
+
+.Totalscreen > img {
+  position: absolute;
+  top: 12%;
+  left: 23%;
+  width: 55%;
+  border-radius: 22px;
+}
+
+.Totalcase > img {
+  width: 100%;
+  height: 100%;
+}
+
+.explanation {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: rgb(51, 61, 75);
+  position: absolute;
+  right: 0;
+  bottom: 175px;
+}

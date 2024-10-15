@@ -1,0 +1,17 @@
+.second {
+  width: 100vw;
+  background-color: #f9fafb;
+  display: flex;
+  justify-content: center;
+  padding: 200px 0;
+}
+
+.second > .contents {
+  font-size: 32px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}

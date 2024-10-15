@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  font-family: "Pretendard-Regular";
+}
+
+.first {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.motto {
+  color: skyblue;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.sub {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color: gainsboro;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.download {
+  display: flex;
+  gap: 10px;
+}
+
+.button {
+  display: flex;
+  gap: 10px;
+  padding: 20px;
+  border: 1px solid gainsboro;
+  border-radius: 16px;
+  font-weight: bold;
+}
+
+.icon {
+  font-size: 30px;
+}
+
+.button > .text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.android {
+  background-color: #1e90ff;
+  color: white;
+}
